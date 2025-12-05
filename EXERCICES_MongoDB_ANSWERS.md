@@ -3,7 +3,6 @@
 Base de données: `shop_maroc`
 Collections: `products`, `customers`, `orders`
 
-> Remarque: Les commandes ci-dessous sont pour le shell `mongosh` (MongoDB Shell). Ajustez selon votre environnement (driver Node.js, Python, etc.).
 
 ---
 
@@ -453,11 +452,4 @@ db.alerts.find({ active: true }).pretty();
 - Prévisions de rupture: calculer vitesse de vente / stock actuel -> estimer jours restants (script externe réalisable).
 
 ---
-
-## Fichiers & commandes fournis
-- Ce fichier: `EXERCICES_MongoDB_ANSWERS.md` (déposé à la racine du dépôt)
-
----
-
-Si vous voulez que je transforme certains exemples en scripts exécutables (Node.js ou Python), je peux les ajouter et les inclure dans le dépôt (avec `package.json` ou `requirements.txt`).
 
