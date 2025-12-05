@@ -1,0 +1,27 @@
+{
+  "name": "tp-mongodb-crud",
+  "version": "1.0.0",
+  "description": "MongoDB CRUD - Exercices Progressifs (Niveau 1, 2, 3)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "level1": "node exercises/niveau1.js",
+    "level2": "node exercises/niveau2.js",
+    "level3": "node exercises/niveau3.js",
+    "demo": "node demo.js"
+  },
+  "keywords": [
+    "mongodb",
+    "crud",
+    "exercises",
+    "maroc"
+  ],
+  "author": "Student",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
